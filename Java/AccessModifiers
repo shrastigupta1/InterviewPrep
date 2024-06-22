@@ -1,0 +1,16 @@
+Access Modifiers are those modifiers that are used to restrict the visibility of classes, fields, methods, and constructors.
+
+Private:
+1. Private access modifier in Java can apply to a variable, method, constructor, inner class but not to the class itself.
+2. The instance variable can be private but a local variable cannot be private.
+3. If we make any constructor as private, we cannot create an object of that class from another class and also cannot create the subclass of that class.
+
+Default Access Modifier:
+1. Default members of a class are visible inside of the class and everywhere within classes in the same package only.
+
+Protected Access Modifier:
+1. Protected members are accessible inside the class and everywhere within classes in the same package and outside the package but through inheritance only.
+
+Public Access Modifier in Java:
+1. Public access modifier can apply to instance variables, constructors, inner classes, outer class, methods but not with local variables.
+2. Public members of a class can be used anywhere.
