@@ -1,0 +1,6 @@
+Array - Contiguous area of memory consisting of equal size elements indexed by contiguous integers.
+What special about arrays? 
+-Random Access
+-Takes Constant time to read & write
+
+Arrays are expensive if we want to remove or add array at the begining O(n). If we want to remove from the end O(1). Basically, constant time to add/remove from end & Linear time from middle or start.
